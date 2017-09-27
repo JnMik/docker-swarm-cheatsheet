@@ -19,3 +19,7 @@
 ## Stack Management
 - List stacks: docker stack ls
 - Remove stack : docker stack rm <stack_name>
+
+## Network Management
+- List networks: docker network ls
+- Remove network : docker network rm <network_name>
