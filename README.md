@@ -4,8 +4,8 @@
 - List docker nodes : docker node ls
 - Drain a node : docker node update --availability drain <node_name>
 - UNDO Drain a node : docker node update --availability active <node_name>
-- Add label to node :   docker node --label-add <key>=<value> <node_name>
-- Remove label from node :   docker node --label-rm <key> <node_name>
+- Add label to node :   docker node update --label-add key=value <node_name>
+- Remove label from node :   docker node update --label-rm key <node_name>
 - Lookup node label   docker node inspect <node_name> | grep Labels -C5
 
 
